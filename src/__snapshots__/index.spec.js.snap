@@ -1,0 +1,435 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MarkovBuilder emits expected ngrams with order 1 1`] = `
+Array [
+  Object {
+    "ngram": Array [
+      "hello",
+      "world",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "try",
+      "except",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "except",
+      "is",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "is",
+      "great",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "i",
+      "cant",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "cant",
+      "believe",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "believe",
+      "youve",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "youve",
+      "done",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "done",
+      "this",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "good",
+      "afternoon,",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "afternoon,",
+      "gentlemen",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "first",
+      "snowstorm",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "snowstorm",
+      "of",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "of",
+      "the",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "the",
+      "year,",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "year,",
+      "time",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "time",
+      "to",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "to",
+      "watch",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "watch",
+      "The",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "The",
+      "Shining!",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "snowed",
+      "here",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "here",
+      "too",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "starting",
+      "to",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "to",
+      "accumulate",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "accumulate",
+      "at",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "at",
+      "all?",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+]
+`;
+
+exports[`MarkovBuilder emits expected ngrams with order 2 1`] = `
+Array [
+  Object {
+    "ngram": Array [
+      "try",
+      "except",
+      "is",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "except",
+      "is",
+      "great",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "i",
+      "cant",
+      "believe",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "cant",
+      "believe",
+      "youve",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "believe",
+      "youve",
+      "done",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "youve",
+      "done",
+      "this",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "good",
+      "afternoon,",
+      "gentlemen",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "first",
+      "snowstorm",
+      "of",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "snowstorm",
+      "of",
+      "the",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "of",
+      "the",
+      "year,",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "the",
+      "year,",
+      "time",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "year,",
+      "time",
+      "to",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "time",
+      "to",
+      "watch",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "to",
+      "watch",
+      "The",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "watch",
+      "The",
+      "Shining!",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "snowed",
+      "here",
+      "too",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "starting",
+      "to",
+      "accumulate",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": true,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "to",
+      "accumulate",
+      "at",
+    ],
+    "sentenceEnd": false,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+  Object {
+    "ngram": Array [
+      "accumulate",
+      "at",
+      "all?",
+    ],
+    "sentenceEnd": true,
+    "sentenceStart": false,
+    "startsWithProper": false,
+  },
+]
+`;
