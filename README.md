@@ -6,8 +6,6 @@
 
 [`streaming-markov-chain-builder`][npm] is a Markov chain builder that accepts input text as a stream and outputs a stream of n-grams.
 
-https://devdocs.io/node/stream#stream_class_stream_transform
-
 ## Installation
 
 ```shell
@@ -46,6 +44,21 @@ builder.on('data', (ngram) => {
 
 // you can also pipe the Transform stream to a consumer that accepts object-mode streams
 builder.pipe(storage)
+```
+
+## Ngram structure
+
+```typescript
+export type MarkovNgram = {
+  // list of the words in this ngram
+  ngram: string[],
+  // is this a sentence starter?
+  sentenceStart: boolean,
+  // is this a sentence ender?
+  sentenceEnd: boolean,
+  // is ngram[0] proper?
+  startsWithProper: boolean
+}
 ```
 
 [ci-badge]: https://img.shields.io/gitlab/pipeline/flotwig/node-streaming-markov-chain-builder?gitlab_url=https%3A%2F%2Fci.chary.us
